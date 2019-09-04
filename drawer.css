@@ -1,0 +1,95 @@
+/* Start Body */
+body{
+    background-color: white;
+}
+body{
+    color:rgb(2, 2, 31);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height:1.5em;
+    margin:2px;
+    padding:4px;     
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue{
+    background-color: rgb(7, 7, 82); 
+}
+
+.bg-red{
+    background-color: rgb(243, 9, 9); 
+}
+.bg-grey{
+    background-color: rgb(160, 156, 156);
+
+}
+
+  
+
+/* End Debug */
+
+/* Start container */
+   .container{
+       margin: 10px auto ;
+       overflow: auto;
+       width: 90%
+   }
+
+   .container-full{
+    margin: 10px auto ;
+    overflow: auto;
+    width: 100%
+}
+/* End container */
+
+/* start logo */
+.logo{ 
+    text-align:center ;
+ }
+/* start logo */
+
+/* start menu-primer */
+.menu-primer ul {
+    background-color: rgb(40, 40, 65);
+    border-radius: 4px;
+    box-shadow: 
+         0 3px 5px -1px rgb(52, 52, 80),
+         0 3px 10px -0px rgb(52, 52, 82),
+         0 3px 10px -0px rgb(52, 52, 94);
+}
+.menu-primer li{
+    border-right: 2px solid rgb(198, 198, 235);
+    display:inline-block; 
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color:rgb(192, 192, 236);
+    font-size:16px;
+    display: inline-block;
+    letter-spacing: 18px; 
+    padding: 20px 30px ;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color:rgb(169, 169, 255);
+    color:navy;
+}
+
+.menu-primer .active{
+    background-color: rgb(169, 169, 255);
+    color:navy;
+    text-decoration: none;
+}
+
+
+/* end menu-primer */
+
+
+
+
+
+
+
+     
